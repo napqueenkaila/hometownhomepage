@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color:#F1FAEE;
+    font-family: 'Rubik Vinyl';
+}
+
+.header-img{
+    background-image:url("images/detroit.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-origin:border-box;
+    height:350px;
+    margin:0;
+}
+
+#header{
+    font-family: 'Rubik Vinyl';
+    color:#1D3557;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: end;
+}
+
+.title, .subtitle{
+    background-color:#457B9D;
+    padding:15px 30px 15px 30px;
+    border-radius:30%;
+    margin:0 100px 20px 100px;
+}
+
+.title{
+    font-size:40px;
+}
+
+.activities{
+    display:flex;
+    justify-content:space-around;
+    padding-top:30px;
+    margin-bottom:30px;
+}
+
+.activity-title{
+    font-size:30px;
+}
+
+.activity-name{
+    font-size:25px;
+}
+
+.activity-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex:1;
+}
+
+.activity-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.guide{
+    margin:auto auto 40px auto;
+    display:flex;
+    width:450px;
+    background:#1D3557;
+    color:white;
+    border-radius:30px;
+    box-shadow: -10px 10px #457B9D;
+}
+
+.guide-img{
+    width:150px;
+    padding:10px;
+    border-radius:30px;
+}
+
+.guide-content{
+    padding:10px;
+}
+
+.guide-title{
+    font-size:25px
+}
+
+.guide-quote{
+    font-style: italic;
+}
