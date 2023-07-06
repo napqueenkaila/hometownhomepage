@@ -8,47 +8,60 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/7c85686bf5.js" crossorigin="anonymous"></script>
         <!-- TITLE & META -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hometown Homepage | Kaila Bullard - dev</title>
     </head>
     <body>
-        <div id="header" class="header-img">
-            <h1 class="title">Visit Michigan</h1>
-            <h2 class="subtitle">Explore all the Great Lakes State has to offer!</h2>
-        </div>
+        <header>
+            <div class="header-img">
+                <h1 class="title">Visit Michigan</h1>
+                <h2 class="subtitle">Explore all the Great Lakes State has to offer!</h2>
+            </div>
+        </header>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3 class="activity-title">Top three activities to do in Michigan</h3>
+        <div id="activity-section">
+            <h3 class="activity-section-title">Top three places to go in Michigan</h3>
             <div class="activities">
-                <div class="activity-card">
-                    <img class="activity-img ann-arbor" src="images/bighouse.jpg" alt="">
-                    <h3 class="activity-name">Ann Arbor</h3>
-                    <p>Cheer on the University of Michigan Wolverines at the Big House, the largest stadium in the U.S.!</p>
-                </div>
                 <div class="activity-card mackinac">
                     <img class="activity-img" src="images/mackinac.jpg" alt="">
                     <h3 class="activity-name">Mackinac Island</h3>
-                    <p>Rent a bike or carriage to tour the island then head downtown for some world-famous Mackinac Island Fudge!</p>
+                    <p class="activity-description">Rent a bike or carriage to tour the island then head downtown for some world-famous Mackinac Island Fudge!</p>
+                </div>
+                <div class="activity-card">
+                    <img class="activity-img ann-arbor-img" src="images/bighouse.jpg" alt="">
+                    <h3 class="activity-name">Ann Arbor</h3>
+                    <p class="activity-description">Come in the fall to cheer on the University of Michigan Wolverines at the Big House, the largest stadium in the U.S.!</p>
                 </div>
                 <div class="activity-card rocks">
                     <img class="activity-img" src="images/spirit.jpg" alt="">
                     <h3 class="activity-name">Downtown Detroit</h3>
-                    <p>Head to the Motor City for a night out! With great concert venues and a variety of delicious cusines you'll be in for a treat!</p>
+                    <p class="activity-description">Head to the Motor City for a night out! With great concert venues and a variety of delicious cusines you'll be in for a treat!</p>
                 </div>
             </div>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div class="guide">
-            <img class="guide-img" src="images/kaila.jpg">
-            <div class="guide-content">
-                <h3 class="guide-title">Your guide</h3>
-                <p class="guide-quote">"Michigan has been my home all my life. It has a little bit of everything for everyone."</p>
-                <h4 class="guide-name">Kaila Bullard</h4>
+        <section id="guide">
+            <div class="guide">
+                <img class="guide-img" src="images/kaila.jpg" alt="">
+                <div class="guide-content">
+                    <h3 class="guide-title">Your guide</h3>
+                    <p class="guide-quote">"Michigan has been my home all my life. It has a little bit of everything for everyone."</p>
+                    <h4 class="guide-name">Kaila Bullard</h4>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <footer>
+                <p>©️ 2023 Developed by Kaila Bullard</p>
+                <a href="https://github.com/napqueenkaila">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+        </footer>
     </body>
 </html>
